@@ -18,7 +18,7 @@ const Header = () => {
     return (
     <header className="sticky top-0 bg-white">
         <div className="flex w-full p-6 items-center">
-        <Image src='https://www.freepnglogos.com/uploads/google-logo-png/file-google-logo-svg-wikimedia-commons-23.png' 
+        <Image src='https://www.freepnglogos.com/uploads/google-logo-png/file-google-logo-svg-wikimedia-commons-23.png' alt="Google" 
         width={120} height={40} className='cursor-pointer' onClick={()=>router.push('/')}/>
         <form className='flex flex-grow px-6 py-3 ml-10 mr-5 border border-gray-200 rounded-full shadow-lg max-w-3xl items-center'>
             <input type='text' className="flex-grow w-full focus:outline-none" ref={searchInputRef} defaultValue={router.query.term} />
